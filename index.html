@@ -29,10 +29,13 @@
     </script>
 </head>
 <body>
-    
     <div class="main">
+        <video autoplay muted loop id="background-video">
+            <source src="pic/test.mp4" type="video/mp4">
+            Votre navigateur ne supporte pas la lecture de vidéo.
+        </video>
+        
         <div class="navbar">
-           
             <ul>
                 <li><a href="#info" class="nav-link">HOME</a></li>
                 <li><a href="#SKILLS" class="nav-link">SKILLS</a></li>
@@ -42,20 +45,21 @@
                 <li><a href="#CONTACT" class="nav-link">CONTACT</a></li>
             </ul>
         </div>
-
+    
         <div class="info">
             <h3>Hi, I'm <span>SALMA</span>.</h3>
             <h1><span>W</span>EB <span>D</span>eveloper</h1>
             <h3>Currently a student in Computer Systems Engineering and Web Technologies</h3>
-            <a href="#CONTACT">Hire Me</a>
+            <a color="white" href="#CONTACT">Hire Me</a>
         </div>
-
+    
         <div class="icons">
             <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
             <a href="https://github.com/SALMAEZAHRAOUI"><ion-icon name="logo-github"></ion-icon></a>
             <a href="https://www.linkedin.com/in/salma-ezahraoui/"><ion-icon name="logo-linkedin"></ion-icon></a>
         </div>
     </div>
+    
 
     <section id="formation">
         <h1 class="styled-title">Education</h1>
@@ -79,6 +83,7 @@
     </section>
     <div id="SKILLS" class="skills">
         <h1>SKILLS</h1>
+        <br>
         <div class="skills-container">
             <div class="skill"><i class="devicon-html5-plain"></i> HTML, CSS, JavaScript</div>
             <div class="skill"><i class="devicon-php-plain"></i> PHP</div>
@@ -130,7 +135,7 @@
     <div id="ATTESTATIONS" class="ATTESTATIONS">
         <h1>CERTIFICATIONS</h1>
         <div class="certifications-container">
-            <div class="certification-card" onclick="showImage('pic/php.png')">
+            <div class="certification-card" onclick="showImage('pic/c++.jpeg')">
                 <h3>C++ (Open Classroom)</h3>
             </div>
             
