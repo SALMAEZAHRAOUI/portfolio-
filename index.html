@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>My Portfolio</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/devicon/2.14.0/devicon.min.css">
+   <script>// Récupérer tous les éléments avec la classe "certification-card"
+    function showImage(imageName) {
+        // Sélectionner l'élément image et le conteneur modal
+        var imgElement = document.getElementById("cert-image");
+        var modal = document.getElementById("modal");
+        
+        // Mettre à jour la source de l'image
+        imgElement.src = imageName;
+        
+        // Afficher le modal
+        modal.style.display = "flex";  // Afficher le modal
+    }
+    
+    function closeModal() {
+        // Cacher le modal
+        var modal = document.getElementById("modal");
+        modal.style.display = "none";
+    }
+    
+    
+    </script>
+</head>
+<body>
+    
+    <div class="main">
+        <div class="navbar">
+           
+            <ul>
+                <li><a href="#info" class="nav-link">HOME</a></li>
+                <li><a href="#SKILLS" class="nav-link">SKILLS</a></li>
+                <li><a href="#formation" class="nav-link">EDUCATION</a></li>
+                <li><a href="#PROJECTS" class="nav-link">MY PROJECTS</a></li>
+                <li><a href="#ATTESTATIONS" class="nav-link">CERTIFICATIONS</a></li>
+                <li><a href="#CONTACT" class="nav-link">CONTACT</a></li>
+            </ul>
+        </div>
+
+        <div class="info">
+            <h3>Hi, I'm <span>SALMA</span>.</h3>
+            <h1><span>W</span>EB <span>D</span>eveloper</h1>
+            <h3>Currently a student in Computer Systems Engineering and Web Technologies</h3>
+            <a href="#CONTACT">Hire Me</a>
+        </div>
+
+        <div class="icons">
+            <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+            <a href="https://github.com/SALMAEZAHRAOUI"><ion-icon name="logo-github"></ion-icon></a>
+            <a href="https://www.linkedin.com/in/salma-ezahraoui/"><ion-icon name="logo-linkedin"></ion-icon></a>
+        </div>
+    </div>
+
+    <section id="formation">
+        <h1 class="styled-title">Education</h1>
+        <div class="diplomas">
+            <div class="diploma animate__animated" data-delay="0s">
+                <i class="fas fa-user-graduate"></i>
+                <h3>Bachelor's in Computer Systems Engineering and Web Technologies</h3>
+                <p>2024 – Present<br>Higher School of Technology Sidi Bennour (EST-SB)</p>
+            </div>
+            <div class="diploma animate__animated" data-delay="0.3s">
+                <i class="fas fa-user-graduate"></i>
+                <h3>University Diploma in Computer Engineering</h3>
+                <p>2022 – 2024<br>Higher School of Technology Sidi Bennour (EST-SB)</p>
+            </div>
+            <div class="diploma animate__animated" data-delay="0.9s">
+                <i class="fas fa-graduation-cap"></i>
+                <h3>2nd Year High School, Physics Sciences</h3>
+                <p>2020 – 2021<br>Imame EL GHAZALI High School</p>
+            </div>
+        </div>
+    </section>
+    <div id="SKILLS" class="skills">
+        <h1>SKILLS</h1>
+        <div class="skills-container">
+            <div class="skill"><i class="devicon-html5-plain"></i> HTML, CSS, JavaScript</div>
+            <div class="skill"><i class="devicon-php-plain"></i> PHP</div>
+            <div class="skill" ><i class="devicon-cplusplus-plain"></i> C++</div>
+
+            <div class="skill"><i class="devicon-c-plain"></i> C </div>
+            <div class="skill"><i class="devicon-dotnetcore-plain"></i> VB.NET</div>
+            <div class="skill"><i class="devicon-java-plain"></i> Java</div>
+            <div class="skill"><i class="devicon-mysql-plain"></i> MySQL</div>
+            <div class="skill"><i class="devicon-oracle-original"></i> Oracle</div>
+            <div class="skill">  <i class="devicon-mongodb-plain"></i> MongoDB</div>
+            <div class="skill"><i class="fas fa-pencil-alt"></i> UML, Merise</div>
+            <div class="skill"><i class="devicon-ionic-original"></i> Ionic</div>
+            <div class="skill"><i class="devicon-angularjs-plain"></i> Angular</div>
+            <div class="skill"><i class="devicon-spring-plain"></i> Spring Boot</div>
+            <div class="skill"><i class="devicon-react-original"></i> React Native</div>
+            <div class="skill"><i class="devicon-typescript-plain"></i> TypeScript</div>
+            <div class="skill"><i class="fas fa-network-wired"></i> Networking</div>
+            <div class="skill"><i class="devicon-git-plain"></i> Git </div>
+            <div class="skill"> <i class="devicon-github-original"></i> GitHub</div>
+            <div class="skill"><i class="fas fa-file-word"></i> Word</div>
+            <div class="skill"><i class="fas fa-file-powerpoint"></i> PowerPoint</div>
+            <div class="skill"><i class="fas fa-file-excel"></i> Excel</div>
+        </div>
+    </div>
+    
+    
+    
+
+    <div id="PROJECTS" class="PROJECTS">
+        <h1>MY PROJECTS</h1>
+        <div class="projects-container">
+            <div class="project-card">
+                <h3>Adlead Media - Casablanca - April-May 2024 (Technical Internship)</h3>
+                <p>Development of a cross-platform vehicle tracking mobile app (Angular, Ionic)</p>
+            </div>
+            <div class="project-card">
+                <h3>EST-Sidi Bennour Expériences académiques</h3>
+                <p>Design and development of a web app for attendance management (PHP, MySQL, JavaScript)</p>
+            </div>
+            <div class="project-card">
+                <h3>Cyber Space AI - El Jadida - June 2023 (Introductory Internship)</h3>
+                <p>Development of a recruitment website (HTML, CSS, JavaScript, Node.js, MongoDB)</p>
+            </div>
+        </div>
+    </div>
+    
+
+    <div id="ATTESTATIONS" class="ATTESTATIONS">
+        <h1>CERTIFICATIONS</h1>
+        <div class="certifications-container">
+            <div class="certification-card" onclick="showImage('pic/php.png')">
+                <h3>C++ (Open Classroom)</h3>
+            </div>
+            
+          
+            
+            <div class="certification-card" onclick="showImage('pic/php.png')">
+                <h3>PHP (Great Learning)</h3>
+            </div>
+            <div class="certification-card" onclick="showImage('pic/angular.png')">
+                <h3>Angular (Great Learning)</h3>
+            </div>
+            <div class="certification-card" onclick="showImage('pic/busness.png')">
+                <h3>Basics of BI using Excel (Great Learning)</h3>
+            </div>
+            <div class="certification-card" onclick="showImage('pic/0bf21c03-9c28-4d3b-9f91-3d21637614a8.png')">
+                <h3>Java (Solo Learn)</h3>
+            </div>
+            <div class="certification-card"onclick="showImage('pic/cloud.png')">
+                <h3>Cloud Foundations (Great Learning)</h3>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Fenêtre modale pour afficher l'image -->
+     <!-- Fenêtre modale pour afficher l'image -->
+     <div id="modal" style="display: none;">
+        <div id="modal-content">
+            <span id="close-btn" onclick="closeModal()">&times;</span>
+            <h2>Certification Image</h2>
+            <div style="text-align:center;">
+                <img id="cert-image" src="" alt="Certification Image" style="max-width: 100%; height: auto;">
+            </div>
+        </div>
+    </div>
+
+
+
+    <div id="CONTACT" class="CONTACT">
+        <h1>CONTACT</h1>
+        <p>For any questions or opportunities, feel free to contact me via LinkedIn or email.</p>
+    
+        <form action="mailto:salmaezhraoui@gmail.com" method="post" enctype="text/plain">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <input type="submit" value="Send">
+        </form>
+    </div>
+    
+
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+</body>
+</html>
